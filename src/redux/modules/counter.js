@@ -10,6 +10,10 @@ export const decrease = () => ({
     type: DECREMENT
 });
 
+const initialState = {
+    count: 0
+};
+
 // Reducer
 const reducer = (state = initialState, action) => {
     switch (action.type) {
