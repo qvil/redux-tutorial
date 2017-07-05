@@ -1,7 +1,7 @@
 // Redux
 import { connect } from 'react-redux';
 // Custom
-import Counter from '../components';
+import Counter from '../components/Counter';
 import {
     INCREMENT,
     DECREMENT,
