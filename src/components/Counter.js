@@ -1,9 +1,19 @@
 import React from 'react';
 
-const Counter = () => {
+const Counter = ({ count, onIncrease, onDecrease }) => {
     return (
         <div>
-            Counter
+            <h1>Count : {count}</h1>
+            <button
+                onClick={onIncrease}
+            >
+                    +
+            </button>
+            <button
+                onClick={onDecrease}
+            >
+                    -
+            </button>
         </div>
     );
 };
