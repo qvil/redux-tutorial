@@ -3,8 +3,6 @@ import { connect } from 'react-redux';
 // Custom
 import Counter from '../components/Counter';
 import {
-    INCREMENT,
-    DECREMENT,
     increase, 
     decrease,
 } from '../redux/modules/counter';
