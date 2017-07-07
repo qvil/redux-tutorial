@@ -29,6 +29,23 @@ If you want to move to a specific point, use tag.
 **Example**
 
 If you have trouble in component level.
+
+>**Show tags**
+
+```
+git tag
+```
+>**Result example**
+```
+STEP-01-Component
+STEP-02-Action-Reducer
+STEP-03-Container
+STEP-04-Store
+STEP-05-Complete
+```
+
+>**Check out tags**
+
 ```
 git checkout STEP-01-Component
 ```
